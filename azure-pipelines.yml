@@ -17,7 +17,7 @@ stages:
   jobs:
   - job: Build
     displayName: Build
-    pool: StuLaptop
+    pool: local
       
       #vmImage: ubuntu-latest
     steps:
